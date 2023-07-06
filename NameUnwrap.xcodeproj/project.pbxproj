@@ -11,6 +11,13 @@
 		E17C92752A53750600A417C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92742A53750600A417C1 /* ContentView.swift */; };
 		E17C92772A53750700A417C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17C92762A53750700A417C1 /* Assets.xcassets */; };
 		E17C927A2A53750700A417C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17C92792A53750700A417C1 /* Preview Assets.xcassets */; };
+		E17C92812A537B4D00A417C1 /* getNameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92802A537B4D00A417C1 /* getNameData.swift */; };
+		E17C92832A55A68600A417C1 /* NationalityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92822A55A68600A417C1 /* NationalityRow.swift */; };
+		E17C92852A55AF2900A417C1 /* EmojiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92842A55AF2900A417C1 /* EmojiRow.swift */; };
+		E17C92872A55C3D300A417C1 /* AgeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92862A55C3D300A417C1 /* AgeRow.swift */; };
+		E17C92892A55E09E00A417C1 /* GenderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17C92882A55E09E00A417C1 /* GenderRow.swift */; };
+		E17C928F2A57306C00A417C1 /* app-light.png in Resources */ = {isa = PBXBuildFile; fileRef = E17C928E2A57306C00A417C1 /* app-light.png */; };
+		E17C92912A57307300A417C1 /* app-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = E17C92902A57307300A417C1 /* app-dark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		E17C92742A53750600A417C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E17C92762A53750700A417C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17C92792A53750700A417C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E17C92802A537B4D00A417C1 /* getNameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNameData.swift; sourceTree = "<group>"; };
+		E17C92822A55A68600A417C1 /* NationalityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityRow.swift; sourceTree = "<group>"; };
+		E17C92842A55AF2900A417C1 /* EmojiRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRow.swift; sourceTree = "<group>"; };
+		E17C92862A55C3D300A417C1 /* AgeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRow.swift; sourceTree = "<group>"; };
+		E17C92882A55E09E00A417C1 /* GenderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderRow.swift; sourceTree = "<group>"; };
+		E17C928C2A572DC600A417C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E17C928E2A57306C00A417C1 /* app-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-light.png"; sourceTree = "<group>"; };
+		E17C92902A57307300A417C1 /* app-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-dark.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,8 @@
 		E17C92662A53750600A417C1 = {
 			isa = PBXGroup;
 			children = (
+				E17C928D2A572E5700A417C1 /* images */,
+				E17C928C2A572DC600A417C1 /* README.md */,
 				E17C92712A53750600A417C1 /* NameUnwrap */,
 				E17C92702A53750600A417C1 /* Products */,
 			);
@@ -51,8 +68,9 @@
 		E17C92712A53750600A417C1 /* NameUnwrap */ = {
 			isa = PBXGroup;
 			children = (
+				E17C928A2A572D6E00A417C1 /* Views */,
 				E17C92722A53750600A417C1 /* NameUnwrapApp.swift */,
-				E17C92742A53750600A417C1 /* ContentView.swift */,
+				E17C92802A537B4D00A417C1 /* getNameData.swift */,
 				E17C92762A53750700A417C1 /* Assets.xcassets */,
 				E17C92782A53750700A417C1 /* Preview Content */,
 			);
@@ -65,6 +83,35 @@
 				E17C92792A53750700A417C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E17C928A2A572D6E00A417C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E17C928B2A572D9400A417C1 /* Rows */,
+				E17C92742A53750600A417C1 /* ContentView.swift */,
+				E17C92842A55AF2900A417C1 /* EmojiRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E17C928B2A572D9400A417C1 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				E17C92822A55A68600A417C1 /* NationalityRow.swift */,
+				E17C92882A55E09E00A417C1 /* GenderRow.swift */,
+				E17C92862A55C3D300A417C1 /* AgeRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		E17C928D2A572E5700A417C1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E17C928E2A57306C00A417C1 /* app-light.png */,
+				E17C92902A57307300A417C1 /* app-dark.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17C927A2A53750700A417C1 /* Preview Assets.xcassets in Resources */,
+				E17C92912A57307300A417C1 /* app-dark.png in Resources */,
+				E17C928F2A57306C00A417C1 /* app-light.png in Resources */,
 				E17C92772A53750700A417C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17C92812A537B4D00A417C1 /* getNameData.swift in Sources */,
+				E17C92892A55E09E00A417C1 /* GenderRow.swift in Sources */,
 				E17C92752A53750600A417C1 /* ContentView.swift in Sources */,
+				E17C92872A55C3D300A417C1 /* AgeRow.swift in Sources */,
 				E17C92732A53750600A417C1 /* NameUnwrapApp.swift in Sources */,
+				E17C92852A55AF2900A417C1 /* EmojiRow.swift in Sources */,
+				E17C92832A55A68600A417C1 /* NationalityRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NameUnwrap/Preview Content\"";
+				DEVELOPMENT_TEAM = AGXPWLK827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NameUnwrap/Preview Content\"";
+				DEVELOPMENT_TEAM = AGXPWLK827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
